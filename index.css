@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    }
+
+    
+@media only screen and (max-width: 768px) {
+
+body {
+    font-size: 14px;
+}
+.container {
+    width: 100%;
+}
+}
+
+    .header{
+    background-color: rgb(6, 27, 49);
+    color: rgb(242, 244, 246);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    list-style: none;
+    /* height: 70px; */
+    line-height: 70px;
+    }
+    
+    .left{
+        display: flex;
+        gap: 20px;
+        }
+    
+    .center{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    }
+    
+    .right{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    }
+
+    .title{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        color: white;
+        font-size: 100px;
+    }
+
+    .para{
+        position: absolute;
+        top: 250px;
+        left: 50px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .button{
+        position: absolute;
+        top: 350px;
+        left: 50px;
+        background-color: #496ecd;
+        border: none; 
+        color: white; 
+        padding: 15px 15px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 18px; 
+        margin: 4px 2px; 
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+ 
+    .menu{
+        position: absolute;
+        top: 750px;
+        left: 500px;
+        color: white;
+        font-size: 80px;
+    }
+
+    .text{
+        position: absolute;
+        top: 850px;
+        left: 400px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .pizza{
+        border-radius: 50%;
+        position: absolute;
+        top: 950px;
+        left: 400px;
+    }
+
+    .pizza1{
+        position: absolute;
+        top: 1100px;
+        left: 430px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .pizza2{
+        position: absolute;
+        top: 1150px;
+        left: 390px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .burger{
+        border-radius: 50%;
+        position: absolute;
+        top: 950px;
+        left: 700px;
+    }
+    
+    .burger1{
+        position: absolute;
+        top: 1100px;
+        left: 720px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .burger2{
+        position: absolute;
+        top: 1150px;
+        left: 690px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .noodles{
+        border-radius: 50%;
+        position: absolute;
+        top: 950px;
+        left: 1000px;
+    }
+
+    .noodles1{
+        position: absolute;
+        top: 1100px;
+        left: 1015px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .noodles2{
+        position: absolute;
+        top: 1150px;
+        left: 990px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .noodles3{
+        position: absolute;
+        border-radius: 50%;
+        top: 1550px;
+        left: 200px;
+    }
+
+    .title1{
+        position: absolute;
+        top: 1500px;
+        left: 800px;
+        color: rgb(9, 1, 1);
+        font-size: 100px;
+    }
+
+    .para2{
+        position: absolute;
+        top: 1650px;
+        left: 700px; 
+        color:  rgb(9, 1, 1);
+        font-size: larger;
+    }
+
+    .button1{
+        position: absolute;
+        top: 1800px;
+        left: 900px;
+        background-color: #191915;
+        border: none; 
+        color: white; 
+        padding: 15px 15px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 18px; 
+        margin: 4px 2px; 
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .stat{
+        position: absolute;
+        top: 2150px;
+        left: 550px;
+        color: white;
+        font-size: 100px;
+    }
+
+    .para3{
+        position: absolute;
+        top: 2300px;
+        left: 400px; 
+        color: white;
+        font-size: larger;
+    }
+
+    /* .stats{
+        position: absolute;
+        top: 2400px;
+        left: 400px;
+    } */
+
+    .store{
+        position: absolute;
+        top: 2450px;
+        left: 400px;
+        color: white;
+        font-size: 30px;
+        border: white;
+        border-radius: 50%;
+        border-style: solid;
+        display: flex;
+        padding: 15px;
+    }
+
+    .menus{
+        position: absolute;
+        top: 2450px;
+        left: 700px;
+        color: white;
+        font-size: 30px;
+        border: white;
+        border-radius: 50%;
+        border-style: solid;
+        display: flex;
+        padding: 15px;
+    }
+
+    .chefs{
+        position: absolute;
+        top: 2450px;
+        left: 1000px;
+        color: white;
+        font-size: 30px;
+        border: white;
+        border-radius: 50%;
+        border-style: solid;
+        display: flex;
+        padding: 15px;
+    }
+
+    .burger3{
+        position: absolute;
+        border-radius: 50%;
+        top: 2850px;
+        left: 1000px;
+    }
+
+    .title2{
+        position: absolute;
+        top: 2850px;
+        left: 400px;
+        color: white;
+        font-size: 100px;
+    }
+
+    .para4{
+        position: absolute;
+        top: 3000px;
+        left: 300px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .button2{
+        position: absolute;
+        top: 3100px;
+        left: 500px;
+        background-color: #5e5c48;
+        border: none; 
+        color: white; 
+        padding: 15px 15px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 18px; 
+        margin: 4px 2px; 
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .image{
+        opacity: 0.7;
+    }
+
+    .chef{
+        position: absolute;
+        border-radius: 50%;
+        top: 3550px;
+        left: 600px;
+    }
+
+    .text1{
+        position: absolute;
+        top: 3850px;
+        left: 500px; 
+        color: rgb(0, 0, 0);
+        font-size: 29px;
+    }
+
+    .name{
+        position: absolute;
+        top: 3980px;
+        left: 650px; 
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+
+    .title3{
+        position: absolute;
+        top: 4200px;
+        left: 550px;
+        color: white;
+        font-size: 100px;
+    }
+
+    .para5{
+        position: absolute;
+        top: 4400px;
+        left: 400px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .email{
+        position: absolute;
+        top: 4600px;
+        left: 600px;
+        padding: 10px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .eamil input{
+        font-size: 25px;
+        color: #000;
+        padding: 25px 20px;
+        border: none;
+        outline: none;
+        background: #ececec;
+    }
+
+    .email button{
+        color: #fff;
+        padding: 10px 10px;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        background: blue;
+        cursor: pointer;
+    }
+
+    .title4{
+        position: absolute;
+        top: 5100px;
+        left: 100px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .para6{
+        position: absolute;
+        top: 5200px;
+        left: 100px; 
+        color: white;
+        font-size: larger;
+    }
+
+    .social{
+        position: absolute;
+        top: 5350px;
+        left: 100px; 
+        color: white;
+        padding: auto;
+        cursor: pointer;
+    }
+
+    .a1{
+        position: absolute;
+        top: 5100px;
+        left: 700px;
+        color: white;
+        font-size: 40px;  
+    }
+
+    .about{
+        position: absolute;
+        top: 5150px;
+        left: 700px;
+        color: white;
+        font-size: 25px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .s1{
+        position: absolute;
+        top: 5100px;
+        left: 1000px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .service{
+        position: absolute;
+        top: 5150px;
+        left: 1000px;
+        color: white;
+        font-size: 25px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .o1{
+        position: absolute;
+        top: 5100px;
+        left: 1300px;
+        color: white;
+        font-size: 40px;
+    }
+
+    .contact{
+        position: absolute;
+        top: 5150px;
+        left: 1300px;
+        color: white;
+        font-size: 25px;
+        margin: auto;
+        cursor: pointer;
+    }
